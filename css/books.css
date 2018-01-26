@@ -1,0 +1,308 @@
+.top{
+    width:1190px;
+    height:34px;
+    background:#F6F6F6;
+    margin:0 auto;
+    padding:0 24px;
+    font-size: 12px;
+    line-height:34px;
+}
+.top .login{
+    float:left;
+    color:rgba(68,68,68,1);
+    margin-right:20px;
+}
+.top .shopping{
+    float:right;
+    color:rgba(68,68,68,1);
+    margin-left:20px;
+}
+.con1{
+    width:1190px;
+    height:120px;
+    margin:0 auto;
+}
+.con1 .con1_left{
+    width:118px;
+    height:101px;
+    background:url("../img/books_title_bg.png") center center no-repeat;
+    background-size:100%;
+    float:left;
+    position:relative;
+}
+.con1 .con1_left  p{
+    width:100%;
+    height:37px;
+    font-size: 28px;
+    color:#fff;
+    line-height: 37px;
+    position:absolute;
+    left:0;
+    top:-20px;
+    bottom:0;
+    right:0;
+    margin:auto;
+    text-align:center;
+}
+nav{
+    width:auto;
+    height:100%;
+    float:left;
+    padding-left:51px;
+}
+nav ul{
+    width:100%;
+    height:100%;
+}
+nav ul li{
+    width:auto;
+    height:100%;
+    overflow:hidden;
+    float:left;
+}
+nav ul li>a{
+    display:inline-block;
+    font-size:26px;
+    color:#000;
+    line-height:120px;
+    margin-right:28px;
+    position:relative;
+    height:100%;
+}
+nav ul li>a.select_a1{
+    color:rgba(255,127,3,1);
+}
+nav ul li>a .line{
+    position:absolute;
+    bottom:0px;
+    left:0;
+    width:100%;
+    height:6px;
+    background:rgba(255,127,3,1);
+}
+.con1 .search{
+    width:344px;
+    height:100%;
+    float:right;
+    margin-right:10px;
+    position:relative;
+}
+.con1 .search .s_con{
+    width:100%;
+    height:49px;
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    margin:auto;
+    background:#F2F2F2;
+    padding-left:16px;
+    border-radius:30px;
+}
+.con1 .search .s_con .i{
+    display:inline-block;
+    width:27px;
+    height:27px;
+    vertical-align:middle;
+}
+.con1 .search .s_con input{
+    width:290px;
+    height:100%;
+    background:none;
+    border:none;
+    border-radius:30px;
+    font-size:16px;
+    color:rgba(204,204,204,1);
+    line-height:49px;
+    padding-left:11px;
+}
+.banner{
+    width:1190px;
+    height:362px;
+    margin:0 auto;
+}
+.con{
+    width:980px;
+    height:346px;
+    margin:0 auto;
+    -moz-box-shadow:2px 2px 13px #C5C5C5;
+    -webkit-box-shadow:2px 2px 13px #C5C5C5;
+    box-shadow:2px 2px 13px #C5C5C5;
+}
+.con_1{
+    margin-bottom:20px;
+    margin-top:30px;
+}
+.con_2{
+    background:cyan;
+    margin-bottom:20px;
+}
+.con_1 .left{
+    width:369px;
+    height:344px;
+    position:relative;
+    float:left;
+}
+.con_1 .left .book{
+    width:207px;
+    height:217px;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:35px;
+    margin:auto;
+}
+.con_1 .left .headline{
+    width:63px;
+    height:35px;
+    position:absolute;
+    left:0;
+    top:0;
+    background:url("../img/books_title_con_bg.png") center center no-repeat;
+    background-size:100%;
+    font-size: 21px;
+    color:#fff;
+    line-height:29px;
+    text-align:center;
+}
+.con_1 .right{
+    width:611px;
+    height:100%;
+    float:left;
+    padding-top:32px;
+}
+.con_1 .right>p{
+    width:100%;
+    height:29px;
+    font-size:22px;
+    color:rgba(102,102,102,1);
+    line-height:29px;
+    margin-bottom:14px;
+}
+.con_1 .right ul{
+    width:100%;
+    height:auto;
+    padding-left:20px;
+    overflow:hidden;
+}
+.con_1 .right ul li{
+    width:100%;
+    height:29px;
+    float:left;
+    font-size:14px;
+    color:rgba(153,153,153,1);
+    list-style-type:disc;
+}
+.con_1 .right .time{
+    width:100%;
+    height:31px;
+    margin-top:14px;
+}
+.con_1 .right .time .time_left{
+    width:auto;
+    height:100%;
+    font-size:14px;
+    color:rgba(102,102,102,1);
+    float:left;
+    line-height:31px;
+}
+.con_1 .right .time .time_left span{
+    display:inline-block;
+    width:31px;
+    height:31px;
+    position:relative;
+    vertical-align:top;
+}
+.con_1 .right .time .time_left span img{
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+.con_1 .right .time>p{
+    float:left;
+    font-size:14px;
+    color:rgba(102,102,102,1);
+    margin-left:127px;
+    line-height:31px;
+}
+.con_1 .right .time>p>span{
+    color:#FF0000;
+}
+.con_1 .price{
+    width:100%;
+    height:59px;
+    margin-top:65px;
+}
+.con_1 .price>p span{
+    font-size:30px ;
+    font-weight:400;
+}
+.con_1 .price>p{
+    width:97px;
+    height:100%;
+    float:left;
+    font-size:46px ;
+    color:rgba(255,0,0,1);
+    line-height: 65px;
+    font-weight: 600;
+}
+.con_1 .price .btn{
+    float:left;
+    margin-left:336px;
+    width:109px;
+    height:36px;
+    background:url("../img/books_btn_bg.png") center center no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    margin-top: 17px;
+}
+.con_1 .price .btn a{
+    display:inline-block;
+    width:100%;
+    height:100%;
+    font-size:22px;
+    color:#fff;
+    text-align: center;
+    line-height: 36px;
+}
+
+footer{
+    width:1190px;
+    height:190px;
+    margin:0 auto;
+    background:url("../img/index_footer.png") center center no-repeat;
+    background-size:100%;
+}
+footer p{
+    width:100%;
+    color:#fff;
+}
+footer p.p1{
+    height:40px;
+    font-size:24px;
+    text-align:center;
+    line-height:50px;
+}
+footer p.p2{
+    width:400px;
+    height:20px;
+    font-size:16px;
+    margin:0 auto;
+}
+footer p.p2 a{
+    color:#fff;
+}
+footer p.p2 a.mar{
+    margin-right:64px;
+}
+footer p.p3{
+    padding-left:395px;
+}
+footer p.p4{
+    padding-left:204px;
+}

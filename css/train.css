@@ -1,0 +1,256 @@
+.top{
+    width:1190px;
+    height:34px;
+    background:#F6F6F6;
+    margin:0 auto;
+    padding:0 24px;
+    font-size: 12px;
+    line-height:34px;
+}
+.top .login{
+    float:left;
+    color:rgba(68,68,68,1);
+    margin-right:20px;
+}
+.top .shopping{
+    float:right;
+    color:rgba(68,68,68,1);
+    margin-left:20px;
+}
+.con1{
+    width:1190px;
+    height:120px;
+    margin:0 auto;
+}
+.con1 .con1_left{
+    width:118px;
+    height:101px;
+    background:url("../img/books_title_bg.png") center center no-repeat;
+    background-size:100%;
+    float:left;
+    position:relative;
+}
+.con1 .con1_left  p{
+    width:100%;
+    height:37px;
+    font-size: 28px;
+    color:#fff;
+    line-height: 37px;
+    position:absolute;
+    left:0;
+    top:-20px;
+    bottom:0;
+    right:0;
+    margin:auto;
+    text-align:center;
+}
+nav{
+    width:auto;
+    height:100%;
+    float:left;
+    padding-left:51px;
+}
+nav ul{
+    width:100%;
+    height:100%;
+}
+nav ul li{
+    width:auto;
+    height:100%;
+    overflow:hidden;
+    float:left;
+}
+nav ul li>a{
+    display:inline-block;
+    font-size:26px;
+    color:#000;
+    line-height:120px;
+    margin-right:28px;
+    position:relative;
+    height:100%;
+}
+nav ul li>a.select_a1{
+    color:rgba(255,127,3,1);
+}
+nav ul li>a .line{
+    position:absolute;
+    bottom:0px;
+    left:0;
+    width:100%;
+    height:6px;
+    background:rgba(255,127,3,1);
+}
+.con1 .search{
+    width:344px;
+    height:100%;
+    float:right;
+    margin-right:10px;
+    position:relative;
+}
+.con1 .search .s_con{
+    width:100%;
+    height:49px;
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    margin:auto;
+    background:#F2F2F2;
+    padding-left:16px;
+    border-radius:30px;
+}
+.con1 .search .s_con .i{
+    display:inline-block;
+    width:27px;
+    height:27px;
+    vertical-align:middle;
+}
+.con1 .search .s_con input{
+    width:290px;
+    height:100%;
+    background:none;
+    border:none;
+    border-radius:30px;
+    font-size:16px;
+    color:rgba(204,204,204,1);
+    line-height:49px;
+    padding-left:11px;
+}
+.banner{
+    width:1190px;
+    height:362px;
+    margin:0 auto;
+}
+footer{
+    width:1190px;
+    height:190px;
+    margin:0 auto;
+    background:url("../img/index_footer.png") center center no-repeat;
+    background-size:100%;
+}
+footer p{
+    width:100%;
+    color:#fff;
+}
+footer p.p1{
+    height:40px;
+    font-size:24px;
+    text-align:center;
+    line-height:50px;
+}
+footer p.p2{
+    width:400px;
+    height:20px;
+    font-size:16px;
+    margin:0 auto;
+}
+footer p.p2 a{
+    color:#fff;
+}
+footer p.p2 a.mar{
+    margin-right:64px;
+}
+footer p.p3{
+    padding-left:395px;
+}
+footer p.p4{
+    padding-left:204px;
+}
+.con_1{
+    width:980px;
+    height:auto;
+    margin:0 auto;
+    overflow: hidden;
+    margin-top:21px;
+}
+.con_1 ul{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.con_1 ul li{
+    width:480px;
+    height:236px;
+    box-shadow:0px 0px 15px rgba(145,145,145,.5);
+    margin-bottom:20px;
+}
+.con_1 ul li a{
+    display:block;
+    width:100%;
+    height:100%;
+    position:relative;
+}
+.con_1 ul li a .p_1{
+    font-size: 18px;
+    color:rgba(68,68,68,1);
+    line-height: 18px;
+    width:100%;
+    height:auto;
+    padding-left:28px;
+}
+.con_1 ul li a .click{
+    width:100%;
+    height:34px;
+    padding-left:28px;
+    padding-right:30px;
+    margin-top:13px;
+}
+.con_1 ul li a .click .left_1{
+    width:167px;
+    height:100%;
+    float:left;
+    font-size:24px;
+    color:rgba(255,127,3,1);
+    line-height: 33px;
+}
+.con_1 ul li a .click .left_2{
+    width:auto;
+    height:100%;
+    float:right;
+    font-size:14px;
+    color:rgba(185,185,185,1);
+    line-height: 29px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
